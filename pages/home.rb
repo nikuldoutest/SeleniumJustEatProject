@@ -23,4 +23,11 @@ class Home < Page
   PAD_SIGN_UP_LOCATOR = { css: 'div.subscribe a.ctools-use-modal' }
 
 
+  def ui_elements
+    yield LOGO_LOCATOR
+    yield TOP_NAV_LINKS_LOCATOR
+    yield HEADER_BOTTOM_LOCATOR
+  end
+
+
 end
