@@ -6,7 +6,7 @@ require 'bundler'
 #require_relative '../lib/login_credentials'
 
 
-Dir['./spec/helpers/**/*.rb'].each { |file| require file }
+Dir['./spec/helper/**/*.rb'].each { |file| require file }
 
 Bundler.require(:test_frameworks, :test_harness, :saucelabs, :libraries, :debugging)
 

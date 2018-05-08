@@ -9,4 +9,11 @@ class Header < Page
   LANGUAGE_CHANGE_LINK_LOCATOR = { link: 'Français' }
   HEADER_BOTTOM_LOCATOR = { link: 'Help' }
 
+
+  def logo_locator
+    yield LOGO_LOCATOR
+  end
+
+
+
 end

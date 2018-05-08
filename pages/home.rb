@@ -2,32 +2,26 @@ require_relative 'page'
 
 class Home < Page
 
-  # header
-  LOGO_LOCATOR = { class: 'logo' }
+  MAIN_TEXT = { link_text:'Order delivery today'}
+  MAIN_UNDERLINE_TEXT = { link_text: 'Thousands of restaurants at your fingertips' }
+  ADDRESS_LOOKUP_TEXT = { link_text: 'All we need is your address'}
+  ADDRESS_LOOKUP = { id: 'homepage-search-fullAddress' }
+  ADDRESS_LOOKUP_BUTTON = {class: 'btn btn--primary addressLookup-actionBtn form-submit'}
 
-  SEARCH_INPUT_LOCATOR = { id: 'edit-search-block-form--2' }
-  TOP_NAV_LINKS_LOCATOR = { css: 'div#block-menu-menu-quick-links-poets-org' }
-  PRIZES_LINK_LOCATOR = { link: 'Prizes' }
-  HEADER_BOTTOM_LOCATOR = { css: 'div#header-bottom-l' }
-  # programs
-  AAP_HOME_LINK_LOCATOR = { link: 'Academy of American Poets' }
-  NPM_LINK_LOCATOR = { link: 'National Poetry Month' }
-  MAGAZINE_LINK_LOCATOR = { link: 'American Poets Magazine' }
-  # body
-  SOCIAL_LINKS_BLOCK_LOCATOR = { css: 'div#block-aap-main-aap-follow-aap' }
-  PAD_WRAPPER_LOCATOR = { css: 'div#poem-content-wrapper' }
-  PAD_CONTENT_LOCATOR = { css: 'div#poem-content' }
-  PAD_MORE_LINK_LOCATOR = { link: 'more' }
-  PAD_ABOUT_LOCATOR = { css: 'div#options-wrapper' }
-  PAD_POEM_LINK_LOCATOR = { link: 'poem' }
-  PAD_SIGN_UP_LOCATOR = { css: 'div.subscribe a.ctools-use-modal' }
 
 
   def ui_elements
-    yield LOGO_LOCATOR
-    yield TOP_NAV_LINKS_LOCATOR
-    yield HEADER_BOTTOM_LOCATOR
+    yield MAIN_TEXT
+    yield MAIN_UNDERLINE_TEXT
+    yield ADDRESS_LOOKUP_TEXT
   end
 
+  def submit_address_text
+    yield ADDRESS_LOOKUP
+  end
+
+  def submit_address_button
+    yield
+  end
 
 end
