@@ -18,10 +18,10 @@ def load_home_page
   end
 end
 
-
+=begin
 def address_found
   home.submit_address_text do |locator|
     expect(page.clear_then_enter(locator)).send_keys("57 Saddlelake Green NE, Calgary, AB T3J0M7")
   end
 end
-
+=end
