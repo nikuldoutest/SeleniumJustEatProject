@@ -70,10 +70,10 @@ class Page
 
   def is_displayed?(locator)
     begin
-      find(lcoator).displayed?
+      find(locator).displayed?
     rescue Selenium::WebDriver::Error::TimeOutError
       return false
-      raise 'Element not displayed'
+      raise 'Element is not displayed'
     else
       return true
     end

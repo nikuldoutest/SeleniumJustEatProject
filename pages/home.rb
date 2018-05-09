@@ -2,18 +2,18 @@ require_relative 'page'
 
 class Home < Page
 
-  MAIN_TEXT = { link_text:'Order delivery today'}
-  MAIN_UNDERLINE_TEXT = { link_text: 'Thousands of restaurants at your fingertips' }
-  ADDRESS_LOOKUP_TEXT = { link_text: 'All we need is your address'}
+  MAIN_PICTURE = { class: 'hero-bgImg'}
+  MAIN_TEXT = { class: 'l-container' }
+# ADDRESS_LOOKUP_AREA = { class: 'form addressLookup addressLookup--hero addressLookup--light'}
   ADDRESS_LOOKUP = { id: 'homepage-search-fullAddress' }
   ADDRESS_LOOKUP_BUTTON = {class: 'btn btn--primary addressLookup-actionBtn form-submit'}
 
 
 
   def ui_elements
+    yield MAIN_PICTURE
     yield MAIN_TEXT
-    yield MAIN_UNDERLINE_TEXT
-    yield ADDRESS_LOOKUP_TEXT
+#   yield ADDRESS_LOOKUP_AREA
   end
 
   def submit_address_text
@@ -21,7 +21,7 @@ class Home < Page
   end
 
   def submit_address_button
-    yield
+    yield ADDRESS_LOOKUP_BUTTON
   end
 
 end
