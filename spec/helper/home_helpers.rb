@@ -18,18 +18,10 @@ module HomeHelpers
     end
   end
 
-  def submit_address_text
-    home.submit_address_text do |locator|
-      expect(page.clear_then_enter(locator)).clear
-      expect(page.clear_then_enter(locator)).send_keys "57 Saddlelake Green NE, Calgary, AB T3J0M7"
-    end
+  def submit_address
+    expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
+    expect(page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit'))
+    sleep 2
   end
-
-  def submit_address_button
-    home.submit_address_button do |locator|
-      expect(page.click(locator)).click
-    end
-  end
-
 
 end

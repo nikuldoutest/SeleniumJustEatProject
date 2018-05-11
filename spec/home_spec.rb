@@ -11,15 +11,7 @@ describe 'Home -' do
 
   it 'should load page and verify UI elements on Home', :smoke do
     load_home_page
+    submit_address
   end
-
-  it 'should enter the address value in the box', :smoke do
-    submit_address_text
-  end
-
-  it 'should look for address while submit button', :smoke do
-    submit_address_button
-  end
-
 
 end
