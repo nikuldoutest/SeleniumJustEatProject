@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58a9d052-99b4-4243-9e18-ece5814b79a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helper/home_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helper/home_helpers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/home_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/home_spec.rb" afterDir="false" />
-    </list>
+    <list default="true" id="58a9d052-99b4-4243-9e18-ece5814b79a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +325,7 @@
       <workItem from="1525806917355" duration="5939000" />
       <workItem from="1525836544329" duration="7709000" />
       <workItem from="1525916650300" duration="5877000" />
-      <workItem from="1526007548564" duration="4581000" />
+      <workItem from="1526007548564" duration="5168000" />
     </task>
     <servers />
   </component>
@@ -367,7 +362,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77848000" />
+    <option name="totallyTimeSpent" value="78435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
