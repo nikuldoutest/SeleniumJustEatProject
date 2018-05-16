@@ -10,10 +10,13 @@ class Header < Page
   HEADER_BOTTOM_LOCATOR = { link: 'Help' }
 
 
-  def logo_locator
+  def ui_elements
     yield LOGO_LOCATOR
+    yield LOGIN_LINK_LOCATOR
+    yield SIGNUP_LINK_LOCATOR
+    yield LANGUAGE_CHANGE_LINK_LOCATOR
+    yield HEADER_BOTTOM_LOCATOR
   end
-
 
 
 end

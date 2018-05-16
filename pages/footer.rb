@@ -3,11 +3,11 @@ require_relative 'page'
 class Footer < Page
 
   #Social Media Links Footer
-  FACEBOOK_LINK_LOCATOR = { link: 'Facebook' }
-  TWITTER_LINK_LOCATOR = { link: 'Twitter' }
-  GOOGLEPLUS_LINK_LOCATOR = { link: 'Google+' }
-  BLOG_LINK_LOCATOR = { link: 'Just Eat Blog' }
-  INSTAGRAM_LINK_LOCATOR = { link: 'Instagram' }
+  FACEBOOK_LINK_LOCATOR = {link: 'Facebook'}
+  TWITTER_LINK_LOCATOR = {link: 'Twitter'}
+  GOOGLEPLUS_LINK_LOCATOR = {link: 'Google+'}
+  #BLOG_LINK_LOCATOR = {link: 'Just Eat Blog'}
+  INSTAGRAM_LINK_LOCATOR = {link: 'Instagram'}
 
 
   #Cards Image Footer
@@ -35,5 +35,23 @@ class Footer < Page
   PRIVACY_POLICY_LINK_LOCATOR = { link: 'Privacy Policy / Terms & Conditions' }
   CAREER_LINK_LOCATOR = { link: 'Career Opportunities' }
 
+  def ui_elements
+    yield FACEBOOK_LINK_LOCATOR
+    yield TWITTER_LINK_LOCATOR
+    yield GOOGLEPLUS_LINK_LOCATOR
+    yield BLOG_LINK_LOCATOR
+    yield INSTAGRAM_LINK_LOCATOR
+    yield CREDITCARDS_IMG_LOCATOR
+    yield FEEDBACK_MODAL_LINK_LOCATOR
+    yield FEEDBACK_LOGO_LOCATOR
+    yield FEEDBACK_LINK_LOCATOR
+    yield ANDROID_APP_LINK_LOCATOR
+    yield PRICE_PROMISE_LINK_LOCATOR
+    yield FOR_RESTAURANTS_LINK_LOCATOR
+    yield CONTACT_US_LINK_LOCATOR
+    yield ABOUT_US_LINK_LOCATOR
+    yield PRIVACY_POLICY_LINK_LOCATOR
+    yield CAREER_LINK_LOCATOR
+  end
 
 end

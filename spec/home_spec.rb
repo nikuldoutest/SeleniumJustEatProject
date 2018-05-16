@@ -5,13 +5,22 @@ describe 'Home -' do
 
   include HomeHelpers
 
-  let(:home) { Home.new(@driver) }
   let(:page) { Page.new(@driver) }
+  let(:home) { Home.new(@driver) }
+  let(:header) { Header.new(@driver) }
+  let(:footer) { Footer.new(@driver) }
+  let(:signup) {SignUp.new(@driver)}
 
 
-  it 'should load page and verify UI elements on Home', :smoke do
+  xit 'should load home page and verify UI elements on Home', :smoke do
     load_home_page
-    submit_address
+    header_elements
+    footer_elements
   end
+
+  it 'should sign up for new user', :smoke do
+    sign_up_new_user
+  end
+
 
 end
