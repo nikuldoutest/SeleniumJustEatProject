@@ -47,6 +47,14 @@ class Page
     find_within(context, locator).clear
   end
 
+  def clear(locator)
+    find(locator).clear
+  end
+
+  def clear_within(context, locator)
+    find_within(context, locator).clear
+  end
+
   def clear_then_enter(text, locator)
     find(locator).clear
     find(locator).send_keys text

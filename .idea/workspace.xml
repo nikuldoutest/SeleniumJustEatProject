@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a9d052-99b4-4243-9e18-ece5814b79a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/signup.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signup.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/helper/home_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helper/home_helpers.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/home_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/home_spec.rb" afterDir="false" />
     </list>
@@ -18,30 +15,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SeleniumJustEatProject@Run_spec__home_spec___SeleniumJustEatProject.rcov" NAME="Run spec 'home_spec': SeleniumJustEatProject Coverage Results" MODIFIED="1526450544127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeleniumJustEatProject" />
+    <SUITE FILE_PATH="coverage/SeleniumJustEatProject@Run_spec__home_spec___SeleniumJustEatProject.rcov" NAME="Run spec 'home_spec': SeleniumJustEatProject Coverage Results" MODIFIED="1526573515030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeleniumJustEatProject" />
     <SUITE FILE_PATH="coverage/SeleniumJustEatProject@spec__helper.rcov" NAME="spec _helper Coverage Results" MODIFIED="1525576649398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="SeleniumJustEatProject" />
     <SUITE FILE_PATH="coverage/SeleniumJustEatProject@rspec.rcov" NAME="rspec Coverage Results" MODIFIED="1525814832511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Ruby25-x64/bin" MODULE_NAME="SeleniumJustEatProject" />
     <SUITE FILE_PATH="coverage/SeleniumJustEatProject@Home___should_load_page_and_verify_UI_elements_on_Home__SeleniumJustEatProject.rcov" NAME="Home - should load page and verify UI elements on Home: SeleniumJustEatProject Coverage Results" MODIFIED="1525814190792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeleniumJustEatProject" />
-    <SUITE FILE_PATH="coverage/SeleniumJustEatProject@home_helpers.rcov" NAME="home_helpers Coverage Results" MODIFIED="1525816684318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec/helper" MODULE_NAME="SeleniumJustEatProject" />
+    <SUITE FILE_PATH="coverage/SeleniumJustEatProject@home_helpers.rcov" NAME="home_helpers Coverage Results" MODIFIED="1526573246507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec/helper" MODULE_NAME="SeleniumJustEatProject" />
+    <SUITE FILE_PATH="coverage/SeleniumJustEatProject@signup.rcov" NAME="signup Coverage Results" MODIFIED="1526512491052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" MODULE_NAME="SeleniumJustEatProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4806139">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home_helpers.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
+          <file leaf-file-name="footer.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/footer.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+                <state relative-caret-position="385">
+                  <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="signup.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/signup.rb">
+          <file leaf-file-name="header.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/header.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="21" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="21" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/home.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +56,26 @@
           <file leaf-file-name="page.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-272">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="13" />
+                <state relative-caret-position="204">
+                  <caret line="45" column="18" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="signup.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/signup.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home_spec.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="22" column="20" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -58,30 +83,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/home.rb">
+        <leaf>
+          <file leaf-file-name="home_helpers.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home_spec.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/footer.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+                <state relative-caret-position="-17">
+                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -109,13 +116,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spec/spec _helper.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/pages/page.rb" />
         <option value="$PROJECT_DIR$/pages/home.rb" />
         <option value="$PROJECT_DIR$/pages/header.rb" />
         <option value="$PROJECT_DIR$/pages/footer.rb" />
         <option value="$PROJECT_DIR$/spec/home_spec.rb" />
-        <option value="$PROJECT_DIR$/pages/signup.rb" />
+        <option value="$PROJECT_DIR$/pages/page.rb" />
         <option value="$PROJECT_DIR$/spec/helper/home_helpers.rb" />
+        <option value="$PROJECT_DIR$/pages/signup.rb" />
       </list>
     </option>
   </component>
@@ -125,10 +132,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="147" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,11 +198,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/SeleniumPOMProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -299,33 +307,33 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/Ruby25-x64/bin/rspec" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="spec_helper" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="signup" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="SeleniumJustEatProject" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/spec" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/pages" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/spec_helper.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/pages/signup.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <list>
       <item itemvalue="RSpec.Run spec 'home_spec': SeleniumJustEatProject" />
       <item itemvalue="Ruby.home_helpers" />
-      <item itemvalue="Ruby.spec_helper" />
       <item itemvalue="RSpec.Home - should load page and verify UI elements on Home: SeleniumJustEatProject" />
       <item itemvalue="Ruby.rspec" />
+      <item itemvalue="Ruby.signup" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="RSpec.Run spec 'home_spec': SeleniumJustEatProject" />
         <item itemvalue="Ruby.home_helpers" />
+        <item itemvalue="Ruby.signup" />
         <item itemvalue="Ruby.rspec" />
         <item itemvalue="RSpec.Home - should load page and verify UI elements on Home: SeleniumJustEatProject" />
-        <item itemvalue="Ruby.spec_helper" />
       </list>
     </recent_temporary>
   </component>
@@ -360,44 +368,47 @@
       <workItem from="1525916650300" duration="5877000" />
       <workItem from="1526007548564" duration="5168000" />
       <workItem from="1526405649616" duration="3000000" />
-      <workItem from="1526420198614" duration="5714000" />
+      <workItem from="1526420198614" duration="7084000" />
+      <workItem from="1526495413515" duration="1290000" />
+      <workItem from="1526504278037" duration="5749000" />
+      <workItem from="1526572946664" duration="9255000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 12h 37m 32s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 12h 41m 57s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 13h 25m 29s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 22h 52m 33s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 22h 55m 02s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 22h 56m 46s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.15 at 22h 58m 42s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 00h 00m 16s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 00h 02m 02s.xml">
-      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 00h 02m 30s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 00h 15m 59s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 00h 24m 15s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 15h 36m 40s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.16 at 16h 41m 24s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.17 at 10h 03m 58s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.17 at 10h 04m 48s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.17 at 10h 07m 44s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.17 at 10h 08m 33s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumJustEatProject - 2018.05.17 at 10h 12m 02s.xml">
       <configuration name="Run spec 'home_spec': SeleniumJustEatProject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87149000" />
+    <option name="totallyTimeSpent" value="104813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +423,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16308725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16912752" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -436,19 +447,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32880434" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -461,6 +472,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/footer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -652,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -740,8 +751,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/footer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -752,45 +770,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/footer.rb">
+    <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
+    <entry file="file://$PROJECT_DIR$/pages/home.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="-17">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/signup.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

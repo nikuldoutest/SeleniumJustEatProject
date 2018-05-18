@@ -16,6 +16,7 @@ describe 'Home -' do
     load_home_page
     header_elements
     footer_elements
+    submit_address
   end
 
   it 'should sign up for new user', :smoke do
