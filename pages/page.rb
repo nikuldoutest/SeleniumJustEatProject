@@ -44,7 +44,7 @@ class Page
   end
 
   def click_within(context, locator)
-    find_within(context, locator).clear
+    find_within(context, locator).click
   end
 
   def clear(locator)

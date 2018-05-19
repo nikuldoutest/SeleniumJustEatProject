@@ -24,13 +24,6 @@ module HomeHelpers
     end
   end
 
-  def submit_address
-    expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
-    #expect(page.click(css: 'addressLookup-suggestions-item is-selected'))
-    sleep 1
-    page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit')
-  end
-
   def header_elements
     header.ui_elements do |ui_element|
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
@@ -43,12 +36,24 @@ module HomeHelpers
     end
   end
 
+  def submit_address
+    expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
+    #expect(page.click(css: 'addressLookup-suggestions-item is-selected'))
+    sleep 1
+    page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit')
+  end
+
   def sign_up_new_user
-    page.click_within(HEADER_LOCATOR, SIGNUP_LINK_LOCATOR)
+    header.signup_link_click
+    signup.email_id_locator
+    signup.password_locator
+    signup.confirm_password_locator
+    signup.ui_elements do |ui_element|
+      expect(page.ui_element_displayed?(ui_element)).to be_truthy
+    end
+    signup.create_account_locator
     sleep 5
-    expect(page.clear_then_enter(Signup.random_email, EMAIL_ID))
-    expect(page.clear_then_enter(Signup.random_pswd, PASSWORD))
-    expect(page.clear_then_enter(Signup.random_pswd, CONFIRM_PASSWORD))
+
   end
 
 end

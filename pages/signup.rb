@@ -2,11 +2,16 @@ require_relative 'page'
 
 class SignUp < Page
 
-  HEADER_LOCATOR = {class: 'nav-list-item'}
-  SIGNUP_LINK_LOCATOR = {link: 'Signup'}
-  EMAIL_ID = {css: 'input#Email.form-input'}
-  PASSWORD = {css: 'input#Password.form-input'}
-  CONFIRM_PASSWORD = {css: 'input#ConfirmPassword.form-input'}
+
+  EMAIL_ID_LOCATOR = {css: 'input#Email.form-input'}
+  PASSWORD_LOCATOR = {css: 'input#Password.form-input'}
+  CONFIRM_PASSWORD_LOCATOR = {css: 'input#ConfirmPassword.form-input'}
+  TERMS_LOCATOR = {link: 'Terms & Conditions'}
+  PRIVACY_LOCATOR = {link: 'Privacy Policy and Cookies Policy'}
+  FB_SIGNUP_LOCATOR = {css: '#registerForm > fieldset > div.g.u-separatedSpace--top > a.g-col.socialLogin-btn.btn.btn--social.btn--social--facebook'}
+  G_SIGNUP_LOCATOR = {css: '#registerForm > fieldset > div.g.u-separatedSpace--top > a.g-col.socialLogin-btn.btn.btn--social.btn--social--google'}
+  LOGIN_LOCATOR = {link: 'Login'}
+  CREATE_ACCOUNT_LOCATOR = {css: '#registerSubmitBtn'}
 
   def random_num
     return Random.new.rand(1000...9999)
@@ -17,27 +22,30 @@ class SignUp < Page
   end
 
   def random_pswd
-    return "JEAT#{random_num}@"
-  end
-=begin
-  def random_email_generator
-    return "nkpnkp+#{random_num}@gmail.com"
+    return "Jeat#{random_num}@"
   end
 
-  def random_pswd_generator
-    return "JEAT#{random_num}@"
-  end
-=end
-
-=begin
-  def signup_link
-    yield SIGNUP_LINK_LOCATOR
+  def email_id_locator
+    clear_then_enter random_email, EMAIL_ID_LOCATOR
   end
 
-  def signup_information
-    yield EMAIL_ID
-    yield PASSWORD
-    yield CONFIRM_PASSWORD
+  def password_locator
+    clear_then_enter "Just#1234", PASSWORD_LOCATOR
   end
-=end
+
+  def confirm_password_locator
+    clear_then_enter "Just#1234", CONFIRM_PASSWORD_LOCATOR
+  end
+
+  def ui_elements
+    yield TERMS_LOCATOR
+    yield PRIVACY_LOCATOR
+    yield LOGIN_LOCATOR
+    yield G_SIGNUP_LOCATOR
+    yield FB_SIGNUP_LOCATOR
+  end
+
+  def create_account_locator
+    click CREATE_ACCOUNT_LOCATOR
+  end
 end
