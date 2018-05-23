@@ -2,7 +2,6 @@ require_relative 'page'
 
 class SignUp < Page
 
-
   EMAIL_ID_LOCATOR = {css: 'input#Email.form-input'}
   PASSWORD_LOCATOR = {css: 'input#Password.form-input'}
   CONFIRM_PASSWORD_LOCATOR = {css: 'input#ConfirmPassword.form-input'}
@@ -18,7 +17,7 @@ class SignUp < Page
   end
 
   def random_email
-    return "nkpnkp+#{random_num}@gmail.com"
+    return "nikul#{random_num}@gmail.com"
   end
 
   def random_pswd

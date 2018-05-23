@@ -12,7 +12,7 @@ describe 'Home -' do
   let(:signup) {SignUp.new(@driver)}
 
 
-  xit 'should load home page and verify UI elements on Home', :smoke do
+  it 'should load home page and verify UI elements on Home', :smoke do
     load_home_page
     header_elements
     footer_elements
@@ -23,6 +23,5 @@ describe 'Home -' do
   it 'should sign up for new user', :smoke do
     sign_up_new_user
   end
-
 
 end
