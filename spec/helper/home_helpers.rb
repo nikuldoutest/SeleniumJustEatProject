@@ -10,10 +10,10 @@ module HomeHelpers
 
   RSpec.configure do |config|
     config.before(:each) do
-      @home = Home.new(@driver)
       @page = Page.new(@driver)
       @header = Header.new(@driver)
       @footer = Footer.new(@driver)
+      @home = Home.new(@driver)
       @signup = SignUp.new(@driver)
    end
   end
@@ -37,10 +37,8 @@ module HomeHelpers
   end
 
   def submit_address
-    expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
-    #expect(page.click(css: 'addressLookup-suggestions-item is-selected'))
-    sleep 1
-    page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit')
+    home.address_search
+    home.address_btn_submit
   end
 
   def sign_up_new_user
@@ -53,7 +51,12 @@ module HomeHelpers
     end
     signup.create_account_locator
     sleep 5
-
   end
 
 end
+
+
+#expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
+#expect(page.click(css: 'addressLookup-suggestions-item is-selected'))
+#sleep 1
+#page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit')

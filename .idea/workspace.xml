@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="58a9d052-99b4-4243-9e18-ece5814b79a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/signup.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/home_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/home_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helper/home_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helper/home_helpers.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +28,7 @@
           <file leaf-file-name="footer.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/footer.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
+                <state relative-caret-position="81">
                   <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
@@ -46,8 +46,8 @@
           <file leaf-file-name="page.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/page.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1717">
-                  <caret line="101" column="17" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="17" />
+                <state relative-caret-position="289">
+                  <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -55,8 +55,8 @@
           <file leaf-file-name="signup.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/signup.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="731">
+                  <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -65,20 +65,29 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home_helpers.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
+          <file leaf-file-name="home.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/home.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="935">
-                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="20" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home_spec.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home_helpers.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="302">
+                  <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home_spec.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="442">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                  <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -106,13 +115,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spec/spec _helper.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/pages/home.rb" />
         <option value="$PROJECT_DIR$/pages/footer.rb" />
-        <option value="$PROJECT_DIR$/pages/page.rb" />
         <option value="$PROJECT_DIR$/pages/header.rb" />
-        <option value="$PROJECT_DIR$/spec/helper/home_helpers.rb" />
-        <option value="$PROJECT_DIR$/pages/signup.rb" />
         <option value="$PROJECT_DIR$/spec/home_spec.rb" />
+        <option value="$PROJECT_DIR$/pages/page.rb" />
+        <option value="$PROJECT_DIR$/pages/signup.rb" />
+        <option value="$PROJECT_DIR$/pages/home.rb" />
+        <option value="$PROJECT_DIR$/spec/helper/home_helpers.rb" />
       </list>
     </option>
   </component>
@@ -364,7 +373,11 @@
       <workItem from="1526572946664" duration="9567000" />
       <workItem from="1526683796877" duration="11191000" />
       <workItem from="1526793994591" duration="707000" />
-      <workItem from="1527099628050" duration="226000" />
+      <workItem from="1527099628050" duration="1143000" />
+      <workItem from="1527103665731" duration="1124000" />
+      <workItem from="1527189112691" duration="599000" />
+      <workItem from="1527225973943" duration="4000" />
+      <workItem from="1527310740930" duration="819000" />
     </task>
     <servers />
   </component>
@@ -401,7 +414,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117249000" />
+    <option name="totallyTimeSpent" value="120712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +429,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.095302016" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -749,10 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.rb">
+    <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -765,36 +778,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="81">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="289">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/signup.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="731">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/home_spec.rb">
+    <entry file="file://$PROJECT_DIR$/pages/home.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/helper/home_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>
