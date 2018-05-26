@@ -38,18 +38,16 @@ module HomeHelpers
 
   def submit_address
     home.address_search
-    home.address_btn_submit
+    #home.address_btn_submit
+    sleep 5
   end
 
   def sign_up_new_user
     header.signup_link_click
-    signup.email_id_locator
-    signup.password_locator
-    signup.confirm_password_locator
     signup.ui_elements do |ui_element|
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
     end
-    signup.create_account_locator
+    signup.signup_user_information
     sleep 5
   end
 

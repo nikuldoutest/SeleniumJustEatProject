@@ -17,10 +17,10 @@ describe 'Home -' do
     header_elements
     footer_elements
     submit_address
-    sleep 2
+    sleep 10
   end
 
-  it 'should sign up for new user', :smoke do
+  xit 'should sign up for new user', :smoke do
     sign_up_new_user
   end
 

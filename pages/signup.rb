@@ -24,16 +24,12 @@ class SignUp < Page
     return "Jeat#{random_num}@"
   end
 
-  def email_id_locator
+  def signup_user_information
+    password_gen = random_pswd
     clear_then_enter random_email, EMAIL_ID_LOCATOR
-  end
-
-  def password_locator
-    clear_then_enter "Just#1234", PASSWORD_LOCATOR
-  end
-
-  def confirm_password_locator
-    clear_then_enter "Just#1234", CONFIRM_PASSWORD_LOCATOR
+    clear_then_enter password_gen, PASSWORD_LOCATOR
+    clear_then_enter password_gen, CONFIRM_PASSWORD_LOCATOR
+    click CREATE_ACCOUNT_LOCATOR
   end
 
   def ui_elements
@@ -44,7 +40,7 @@ class SignUp < Page
     yield FB_SIGNUP_LOCATOR
   end
 
-  def create_account_locator
-    click CREATE_ACCOUNT_LOCATOR
-  end
+ # def create_account_locator
+
+ # end
 end
