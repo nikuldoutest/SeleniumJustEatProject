@@ -17,6 +17,7 @@ class Home < Page
   def address_search
     clear_then_enter"57 Saddlelake Green Northeast, Calgary, AB T3J 0M7", ADDRESS_LOOKUP
     find_within ADDRESS_LOOKUP_PARENT, ADDRESS_LOOKUP_BUTTON
+    sleep 0.5
     click_within ADDRESS_LOOKUP_PARENT, ADDRESS_LOOKUP_BUTTON
     click_within ADDRESS_LOOKUP_PARENT, ADDRESS_TEXT
   end

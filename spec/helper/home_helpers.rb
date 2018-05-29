@@ -15,8 +15,11 @@ module HomeHelpers
       @footer = Footer.new(@driver)
       @home = Home.new(@driver)
       @signup = SignUp.new(@driver)
+      @searchresult = SearchResult.new(@driver)
    end
   end
+
+  #Verify home page elements
 
   def load_home_page
     home.ui_elements do |ui_element|
@@ -24,11 +27,15 @@ module HomeHelpers
     end
   end
 
+  #Verify header elements
+
   def header_elements
     header.ui_elements do |ui_element|
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
     end
   end
+
+  #Verify footer elements
 
   def footer_elements
     footer.ui_elements do |ui_element|
@@ -39,8 +46,9 @@ module HomeHelpers
   def submit_address
     home.address_search
     #home.address_btn_submit
-    sleep 5
   end
+
+  #Sign up for new user
 
   def sign_up_new_user
     header.signup_link_click
@@ -48,13 +56,22 @@ module HomeHelpers
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
     end
     signup.signup_user_information
-    sleep 5
+  end
+
+  #Search restaurant nearby area
+
+  def search_result_nearby_location
+    searchresult.ui_elements do |ui_element|
+      expect(page.ui_element_displayed?(ui_element)).to be_truthy
+    end
+  end
+
+  #open restaurant menu
+
+  def open_restaurnat_menu
+    searchresult.SEARCH_LISTING
+
   end
 
 end
 
-
-#expect(page.clear_then_enter('57 Saddlelake Green Northeast, Calgary, AB T3J 0M7', id: 'homepage-search-fullAddress'))
-#expect(page.click(css: 'addressLookup-suggestions-item is-selected'))
-#sleep 1
-#page.click(css: 'button.btn.btn--primary.addressLookup-actionBtn.form-submit')

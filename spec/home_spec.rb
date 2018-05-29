@@ -12,16 +12,22 @@ describe 'Home -' do
   let(:signup) {SignUp.new(@driver)}
 
 
+  it 'should sign up for new user', :smoke do
+    sign_up_new_user
+  end
+
   it 'should load home page and verify UI elements on Home', :smoke do
     load_home_page
     header_elements
     footer_elements
     submit_address
-    sleep 10
   end
 
-  xit 'should sign up for new user', :smoke do
-    sign_up_new_user
+  it 'should load the search result for near by location', :smoke do
+    search_result_nearby_location
+    open_restaurnat_menu
   end
+
+
 
 end
